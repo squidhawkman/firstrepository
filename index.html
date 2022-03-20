@@ -95,6 +95,7 @@
         display: block;
         max-width: 100%;
       }
+      
     </style>
   </head>
   <body>
@@ -138,7 +139,10 @@
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+          <source srcset="red-panda1200.jpg 1200w" media="(min-width: 600px)">
+          <img src="red-panda600.jpg" alt="redpanda">
+        </picture>
       </div>
 
     </main>
